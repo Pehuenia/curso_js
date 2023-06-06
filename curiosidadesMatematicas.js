@@ -21,7 +21,7 @@ console.log(Math.round(2.2))
 //2.e
 //let totalConImpuestos2 = 0
 
-<<<<<<< HEAD
+
 //console.log(`Monto en pesos: $${Math.round(sumaCentavos * 0.2)/100}`)
 
 //2.f
@@ -85,4 +85,4 @@ tempInFarenheit = (tempInCelsius * 9/ 5) + 32;
 console.log(`${stringDeResultadoFar + tempInFarenheit}`)
 
 
->>>>>>> fe2ada3d032237ab08b9b529376c0f2d45fa5f24
+
