@@ -8,3 +8,28 @@ console.log(miString)
 console.log('I\'m a programming student.')
 
 console.log(`Hola`)
+
+//EJERCICIOS:
+
+//3a.
+const presentacion = 'My name is ';
+
+//3b.
+let nombre = 'Marina';
+
+//3c.
+console.log(presentacion + nombre + ".");
+
+//3d.
+const coffeePrice = 5;
+const bagelPrice= 3;
+let precioTotal = coffeePrice + bagelPrice
+
+
+//3e.
+let mensTotal= `Total cost: $${precioTotal}`;
+
+
+
+
+
