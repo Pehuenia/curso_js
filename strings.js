@@ -21,13 +21,22 @@ let nombre = 'Marina';
 console.log(presentacion + nombre + ".");
 
 //3d.
-const coffeePrice = 5;
-const bagelPrice= 3;
+let coffeePrice = 5;
+let bagelPrice= 3;
 let precioTotal = coffeePrice + bagelPrice
 
 
 //3e.
 let mensTotal= `Total cost: $${precioTotal}`;
+
+//3g.
+coffeePrice = 599;
+bagelPrice = 295;
+
+let totalCost = (coffeePrice + bagelPrice)/100;
+
+let msgPrecio = `Total cost: $${totalCost}`;
+
 
 
 
