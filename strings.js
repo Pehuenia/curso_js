@@ -37,8 +37,24 @@ let totalCost = (coffeePrice + bagelPrice)/100;
 
 let msgPrecio = `Total cost: $${totalCost}`;
 
+//3k.
+let totalProductos = 2095 * 2 + 799 * 2
+let msgLinea1 = `Items (${2+2}):        $${totalProductos / 100}`
 
+console.log(msgLinea1)
+//3I
+let totalShipping = 499 * 2
+let msgLinea2 = `Shipping & handling: $${totalShipping/100}`
+console.log(msgLinea2)
 
+//3l
 
+let totalBruto = totalProductos + totalShipping
+let msgLinea3 = `Total before tax: $${totalBruto/100}`
 
+console.log(msgLinea3)
 
+//3m
+let msgLinea4 = `Estimated tax(10%): $${Math.round(totalBruto * 0.10)/100}`
+
+console.log(msgLinea4)
